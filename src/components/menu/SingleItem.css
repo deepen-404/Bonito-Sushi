@@ -1,0 +1,39 @@
+icons {
+  font-size: 1.2rem;
+}
+
+.section__name {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.item-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1.5rem;
+}
+.add__button,
+.subtract__button {
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 2rem;
+}
+
+.item-quantity {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.icon-single-item {
+    border: 1px solid red;
+  width: 1.2rem;
+  aspect-ratio: 1/1;
+  color: red;
+  font-size: 1.2rem;
+}
+.nameAndIcon {
+  display: grid;
+  gap:1rem;
+  grid-template-columns: 0.3fr 4.5fr;
+  margin-bottom: 0.5rem;
+}

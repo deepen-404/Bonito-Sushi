@@ -1,0 +1,28 @@
+.menu__reviews {
+  border: 2px solid transparent;
+  position: relative;
+}
+.button__container {
+  position: absolute;
+  top: 5%;
+  right: 0%;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+.reviews-container {
+    /* border: 2px solid blue; */
+margin: 5rem 0;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: 2rem;
+}
+.reviews {
+  border-bottom: 1px solid gray;
+}
+
+.reviews h4,h5,p {
+    margin-bottom: 0.5rem;
+}

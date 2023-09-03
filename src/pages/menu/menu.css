@@ -1,0 +1,21 @@
+.menu__container {
+  width: 90%;
+  position: relative;
+  /* border: 2px solid red; */
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  /* place-items: center; */
+}
+
+.menu__nav-bar-below {
+  /* border: 2px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.menu__container-right {
+  text-align: center;
+  margin: auto;
+  /* border: 2px solid blue; */
+}

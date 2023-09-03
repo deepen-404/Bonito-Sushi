@@ -1,0 +1,55 @@
+/* .position-setter {
+  border: 2px solid rebeccapurple;
+  position: relative;
+} */
+.cart__container {
+  /* border: 2px solid red; */
+  position: fixed;
+  top: 21%;
+  left: 35%;
+  grid-column: 2;
+  width: 100%;
+}
+
+.items-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  /* place-items: center; */
+}
+.order-button {
+  width: 8rem;
+  margin-left: 39rem;
+}
+@media screen and (max-width: 1600px) {
+  .back-button {
+    display: none;
+  }
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.mobile-toggle__button {
+  position: absolute;
+  top:250%;
+  right: 127%;
+  transition: right 0.3s ease-in-out;
+
+}
+@media screen and (max-width: 1024px) {
+  .mobile-toggle__button {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile-toggle__button {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+.button__names {
+    display: grid;
+    grid-template-columns: repeat(17fr,auto);
+    width: auto;
+    margin-top: 1rem;
+    padding: 1.5rem 1rem;
+}
+
+.button__names button {
+    background-color: transparent;
+    font-size: 1.1rem;
+}
+.position-setter{
+    height: auto;
+}
+.position-setter{
+    position: relative;
+}
+/* .order-online__container {
+    position: fixed;
+    height: auto;
+} */
+.menu__classifier h4 {
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+.mini-nav__container {
+  /* border: 2px solid red; */
+  height: auto;
+  grid-column: 1;
+
+}
+
+.links__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+  place-items: center;
+  width: 100%;
+}
+
+li {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+

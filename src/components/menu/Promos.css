@@ -1,0 +1,26 @@
+.main-menu__container{
+    margin-top: 3rem;
+    /* border: 2px solid red; */
+    display: grid;
+    /* place-items: center; */
+}
+
+.menu__promos {
+    border: 1px solid gray;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+}
+
+.icon {
+    width: 0.7rem;
+    aspect-ratio: 1/1;
+    color: black;
+    font-size: 0.7rem;
+    margin-top: 0.15rem;
+}
+
+.icAndOffer {
+    display: grid;
+    grid-template-columns: 0.3fr 4.5fr;
+    margin-top: 0.5rem;
+}

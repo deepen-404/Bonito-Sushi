@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: rgb(27, 32, 46);
+  --para-color: #e64e37;
+  --hover-color: #fea31b;
+  --btn-color: #e22b0b;
+  --btn-hover-color: #bf400a;
+
+  --gray-hue: 240;
+  --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+
+  --transition: all 500ms ease;
+}
+
+/* GENERAL STYES */
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", "sans-serif";
+  color: white;
+  line-height: 1.7;
+  overflow-x: hidden;
+  background: hsl (256, 0, 0);
+}
+
+.container {
+  width: var(--container-width-lg);
+  max-width: 1920;
+  margin-inline: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p ,span{
+  line-height: 1.2;
+  color: #212529;
+}
+
+
+
+h1 {
+  font-size: 3rem;
+}
+
+h4 {
+  color: #fea31b;
+}
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  color: var(--color-gray-100);
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.btn {
+  font-family: "Montserrat", "sans-serif";
+  color: white;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  background: var(--btn-color);
+  border-radius: 1.5rem;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--btn-color);
+  color: white;
+}
+
+.btn.lg {
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+}
+
+/* .btn.sm {
+  padding: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+.btn.sm:hover {
+  background: var(--color-gray-100);
+} */

@@ -1,0 +1,33 @@
+.menu__photos {
+  /* border: 2px solid red; */
+  margin-top: 3rem;
+  display: grid;
+  grid-template-rows: 2;
+ place-items: center;
+ gap:1.5rem;
+}
+
+.row__one {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.row__one img {
+  object-fit: cover;
+  width: 20rem;
+  overflow: hidden;
+}
+.row__two {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.row__two img {
+  object-fit: cover;
+  width: 20rem;
+  overflow: hidden;
+}
